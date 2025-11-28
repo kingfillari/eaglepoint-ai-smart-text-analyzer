@@ -1,21 +1,26 @@
 # Eagle Point AI — Smart Text Analyzer
 
-## Project Overview
-The **Smart Text Analyzer** is a Python project designed for the **Eagle Point AI Full-Stack Developer Technical Assessment**.  
-It analyzes any input text and provides:
+A comprehensive text analysis tool built for the Eagle Point AI Full-Stack Developer Technical Assessment. This Python application provides detailed insights into text content with robust edge-case handling and professional code quality.
 
-- **Total word count**  
-- **Average word length** (rounded to 2 decimals)  
-- **Longest word(s)** (including ties)  
-- **Word frequency** (case-insensitive)  
+## Features
 
-The project emphasizes **clean, readable code**, **robust functionality**, and proper **handling of edge cases**.
-
-***
+- **Word Count**: Accurate total word counting
+- **Average Word Length**: Mean word length calculation (2 decimal precision)
+- **Longest Words Identification**: Handles ties and provides all longest words
+- **Word Frequency Analysis**: Case-insensitive word occurrence counting
+- **Robust Text Processing**: Handles punctuation, empty input, and edge cases
 
 ## Installation
 
-1. Ensure **Python 3.8+** is installed. Check version:
+### Prerequisites
+- Python 3.8 or higher
 
-*bash
+### Setup
+***bash
+# Clone the repository
+git clone https://github.com/kingfillari/eaglepoint-ai-smart-text-analyzer.git
+cd eaglepoint-ai-smart-text-analyzer
+
+# No external dependencies required
+# Verify installation
 python --version
